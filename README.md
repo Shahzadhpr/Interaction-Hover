@@ -7,7 +7,7 @@ A mini interactive UI project that showcases animated drink cards with smooth ho
 ## 🎥 Demo Video
 
 <video width="100%" height="auto" controls>
-    <source src="images/demo-video/Recording 2025-08-07 173420.mp4" type="video/mp4">
+    <source src="videos/demo-video.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video>
 
