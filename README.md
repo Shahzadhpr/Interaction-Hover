@@ -6,7 +6,10 @@ A mini interactive UI project that showcases animated drink cards with smooth ho
 
 ## 🎥 Demo Video
 
-
+<video width="100%" height="auto" controls>
+  <source src="https://raw.githubusercontent.com/Shahzadhpr/Interaction-Hover/main/assets/videos/demo-video.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
 
 &nbsp;
 
