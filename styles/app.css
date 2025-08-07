@@ -23,6 +23,12 @@
     src: url(../fonts/YekanBakh-Regular.woff) format("woff2");
 }
 
+@font-face {
+    font-family: "YekanBakh Light";
+    src: url(../fonts/YekanBakh-Light.woff) format("woff2");
+}
+
+
 /*
 =============
   Reest Css
@@ -97,4 +103,68 @@ body {
 	font-size: 1.6rem;
 	line-height: 1.5rem;
 	color: var(--text-color);
+}
+
+.container{
+	/* width: 100.8rem; */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 8.4rem;
+	margin-top: 10rem;
+}
+
+.drink {
+	width: 28rem;
+	background-color: var(--primery-color);
+	border-radius: 50rem;
+	padding: 3.2rem 0;
+	position: relative;
+	cursor: pointer;
+}
+
+.drink__image {
+	display: block;
+	margin: 0 auto;
+	position: relative;
+	z-index: 20;
+	transition: all 340ms cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+
+.drink__back-img {
+	position: absolute;
+	transition: all 340ms cubic-bezier(0.68, -0.55, .27, 1.55);
+	transition-delay: 100ms;
+}
+
+.drink__back-img--right {
+	top: 6.4rem;
+	right: 2rem;
+}
+
+.drink__back-img--left {
+	bottom: 10.5rem;
+	left: 2rem;
+}
+
+.drink:hover .drink__image {
+	transform: scale(1.2) rotate(-10deg);
+}
+
+.drink:hover .drink__back-img {
+	filter: blur(.2rem);
+}
+
+.drink__text-wrapperr {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	row-gap: 1.6rem;
+	font-size: 1.8rem;
+	margin-top: 3.5rem;
+}
+
+.drink__text {
+	font-family: "YekanBakh Light";
 }
