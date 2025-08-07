@@ -4,12 +4,12 @@ A mini interactive UI project that showcases animated drink cards with smooth ho
 
 &nbsp;
 
-## 🎥 Demo Video
+<!--## 🎥 Demo Video
 
 <video width="100%" height="auto" controls>
     <source src="images/demo-video/Recording 2025-08-07 173420.mp4" type="video/mp4">
     Your browser does not support the video tag.
-</video>
+</video>-->
 
 &nbsp;
 
@@ -38,7 +38,7 @@ A mini interactive UI project that showcases animated drink cards with smooth ho
 
 **Want to see it in action? Check out the live preview below!** 👇👇👇
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Click%20Here-ff7a00?style=for-the-badge&logo=google-chrome&logoColor=white)](https://shahzadhpr.github.io/Form)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Click%20Here-ff7a00?style=for-the-badge&logo=google-chrome&logoColor=white)](https://shahzadhpr.github.io/Interaction-Hover)
 
 &nbsp;
 
