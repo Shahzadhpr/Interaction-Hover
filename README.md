@@ -2,7 +2,7 @@
 
 A mini interactive UI project that showcases animated drink cards with smooth hover effects — originally designed for desktop, now fully responsive across all screen sizes.
 
-&nbsp;
+<!--&nbsp;-->
 
 <!--## 🎥 Demo Video
 
