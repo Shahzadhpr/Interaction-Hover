@@ -4,6 +4,12 @@ A mini interactive UI project that showcases animated drink cards with smooth ho
 
 &nbsp;
 
+## 📸 Preview
+
+![Preview](images/Preview.png)
+
+&nbsp;
+
 ## ✨ Features
 
 - Smooth hover animations with 3D-like floating effects  

@@ -221,6 +221,7 @@ body {
   	  width: 100%;
   	  max-width: 30rem;
   	  margin: 0 auto;
+	  cursor: default;
   	}
 }
 
