@@ -103,6 +103,7 @@ body {
 	font-size: 1.6rem;
 	line-height: 1.5rem;
 	color: var(--text-color);
+	background: linear-gradient(259deg, rgba(255, 157, 0, .80) 0%, rgba(255, 104, 34, .80) 100%);
 }
 
 .container{
@@ -110,7 +111,7 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	gap: 8.4rem;
+	gap: 8.7rem;
 	margin-top: 10rem;
 }
 
@@ -123,12 +124,38 @@ body {
 	cursor: pointer;
 }
 
+.drink__comment {
+	position: absolute;
+	top: 3.2rem;
+	right: 7rem;
+	background-color: #fff;
+	border: 1px solid rgba(229, 229, 229, 50%);
+	border-radius: 5rem 1.2rem;
+	box-shadow: 0 2.4rem 5rem -1rem rgba(0, 0, 0, .10);
+	width: 18rem;
+	text-align: center;
+	padding: 1.6rem;
+	z-index: 1;
+	transition: all 340ms cubic-bezier(1, 0, 0, 1) 100ms;
+	transform: scale(0) translateX(0);
+}
+
+.drink__comment h6 {
+	margin-bottom: .8rem;
+}
+
+.drink__comment span {
+	font-family: "YekanBakh Light";
+	font-size: 1.4rem;
+	line-height: 2.1rem;
+}
+
 .drink__image {
 	display: block;
 	margin: 0 auto;
 	position: relative;
 	z-index: 20;
-	transition: all 340ms cubic-bezier(0.68, -0.55, 0.27, 1.55);
+	transition: all 340ms cubic-bezier(0.68, -0.55, 0.27, 1.55) 100ms;
 }
 
 .drink__back-img {
@@ -155,6 +182,19 @@ body {
 	filter: blur(.2rem);
 }
 
+.drink:hover .drink__comment{
+	transform: scale(1) translateX(160px);
+}
+
+.drink:hover .drink__back-img--right {
+	transform: rotate(10deg);
+}
+
+.drink:hover .drink__back-img--left{
+	transform: rotate(-10deg);
+}
+
+
 .drink__text-wrapperr {
 	display: flex;
 	flex-direction: column;
@@ -167,4 +207,44 @@ body {
 
 .drink__text {
 	font-family: "YekanBakh Light";
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+	.container {
+  	  flex-direction: column;
+  	  gap: 4rem;
+  	  margin: 5rem 2rem;
+  	}
+
+  	.drink {
+  	  width: 100%;
+  	  max-width: 30rem;
+  	  margin: 0 auto;
+  	}
+}
+
+@media (max-width: 568px) {
+  	.drink:hover .drink__image {
+		transform: scale(1) rotate(-10deg);
+	}
+
+	.drink__back-img--left {
+    	left: 3rem;
+	}
+
+	.drink__comment {
+    	right: 13rem;
+    	width: 15rem;
+	}
+
+	.drink__comment h6 {
+		margin-bottom: .6rem;
+		font-size: 1.6;
+	}
+
+	.drink__comment span {
+		font-size: 1.2rem;
+        line-height: 1.6rem;
+	}
 }
